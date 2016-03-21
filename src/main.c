@@ -15,7 +15,7 @@ int main(void)
     s = sum(2,2);
     printf("%d\n",s);
 
-    m = mult(2,2);
+    m = mult(2,3);
     printf("%d\n",m);
 
     return EXIT_SUCCESS;
