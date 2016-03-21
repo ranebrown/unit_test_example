@@ -1,4 +1,4 @@
-# cache simulator makefile
+# unit test example makefile
 
 # directories
 SRCDIR = ../src
@@ -28,7 +28,7 @@ SRCS = $(wildcard $(SRCDIR)/*.c)
 OBJS := $(SRCS:$(SRCDIR)/%.c=%.o)
 
 # name of executable
-MAIN = sim.exe
+MAIN = unitT.exe
 
 # make all
 .PHONY: all
@@ -89,4 +89,3 @@ clean:
 	@echo "Cleaning..."
 	@echo "Operation complete :)"
 	@echo
-
